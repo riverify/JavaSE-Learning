@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JavaSE-Learning.iml" filepath="$PROJECT_DIR$/.idea/JavaSE-Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/00.review/00.review.iml" filepath="$PROJECT_DIR$/00.review/00.review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01.start/01.start.iml" filepath="$PROJECT_DIR$/01.start/01.start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02.utils/02.utils.iml" filepath="$PROJECT_DIR$/02.utils/02.utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03.algorithm/03.algorithm.iml" filepath="$PROJECT_DIR$/03.algorithm/03.algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04.container/04.container.iml" filepath="$PROJECT_DIR$/04.container/04.container.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05.container2/05.container2.iml" filepath="$PROJECT_DIR$/05.container2/05.container2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06.container3/06.container3.iml" filepath="$PROJECT_DIR$/06.container3/06.container3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07.ios/07.ios.iml" filepath="$PROJECT_DIR$/07.ios/07.ios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08.thread1/08.thread1.iml" filepath="$PROJECT_DIR$/08.thread1/08.thread1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09.thread2/09.thread2.iml" filepath="$PROJECT_DIR$/09.thread2/09.thread2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.socket/10.socket.iml" filepath="$PROJECT_DIR$/10.socket/10.socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11.container4/11.container4.iml" filepath="$PROJECT_DIR$/11.container4/11.container4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaSE.iml" filepath="$PROJECT_DIR$/JavaSE.iml" />
     </modules>
   </component>
 </project>
