@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a5dce73-5d1e-4609-a795-d1c71fa8c6c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaSE-Learning.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="1qkbBd0WXtRmlaANSND8NmQVAFU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaSE-Learning" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\udp\ask3" />
+      <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\udp\ask2" />
+      <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\tcp\login4" />
+      <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\tcp\login3" />
+      <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\tcp\login2" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.river.poly" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.river" />
+      <recent name="com.river.pool" />
+      <recent name="com.river.sync4" />
+      <recent name="com.river.control4" />
+      <recent name="com.river.create2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.askClient">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.tcp.login4.LoginClient" />
+      <module name="10.socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.river.tcp.login4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="askClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.udp.ask3.askClient" />
+      <module name="10.socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.river.udp.ask3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="askClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.udp.ask.askClient" />
+      <module name="10.socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.river.udp.ask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="askServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.udp.ask3.askServer" />
+      <module name="10.socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.river.udp.ask3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="askServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.udp.ask.askServer" />
+      <module name="10.socket" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.river.udp.ask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.askServer" />
+        <item itemvalue="Application.askServer (1)" />
+        <item itemvalue="Application.askClient" />
+        <item itemvalue="Application.askClient (1)" />
+        <item itemvalue="Application.LoginClient" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a5dce73-5d1e-4609-a795-d1c71fa8c6c8" name="Default Changelist" comment="" />
+      <created>1617626402639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617626402639</updated>
+      <workItem from="1617626403915" duration="1028000" />
+      <workItem from="1617700012354" duration="153000" />
+      <workItem from="1617709799629" duration="299000" />
+      <workItem from="1617712331576" duration="6685000" />
+      <workItem from="1617771758288" duration="4713000" />
+      <workItem from="1617797100472" duration="3128000" />
+      <workItem from="1617800392174" duration="50000" />
+      <workItem from="1617800480408" duration="1633000" />
+      <workItem from="1617872958698" duration="168000" />
+      <workItem from="1617873319556" duration="12000" />
+      <workItem from="1617873724642" duration="3348000" />
+      <workItem from="1617892493633" duration="14000" />
+      <workItem from="1618218228964" duration="301000" />
+      <workItem from="1618218599004" duration="37000" />
+      <workItem from="1618218646523" duration="178000" />
+      <workItem from="1618218847801" duration="8000" />
+      <workItem from="1618221058113" duration="1621000" />
+      <workItem from="1618226214876" duration="1458000" />
+      <workItem from="1618230444663" duration="136000" />
+      <workItem from="1618230601103" duration="812000" />
+      <workItem from="1618231435817" duration="228000" />
+      <workItem from="1618231681041" duration="1288000" />
+      <workItem from="1618232999878" duration="328000" />
+      <workItem from="1618234007565" duration="92000" />
+      <workItem from="1618242603792" duration="166000" />
+      <workItem from="1618296911848" duration="77000" />
+      <workItem from="1618319655692" duration="689000" />
+      <workItem from="1618381214873" duration="772000" />
+      <workItem from="1618382029900" duration="24000" />
+      <workItem from="1618382064412" duration="233000" />
+      <workItem from="1618382309577" duration="99000" />
+      <workItem from="1618385292179" duration="4314000" />
+      <workItem from="1618395625935" duration="7000" />
+      <workItem from="1618399098340" duration="4003000" />
+      <workItem from="1618473980704" duration="13000" />
+      <workItem from="1618837871581" duration="142000" />
+      <workItem from="1619080688691" duration="12000" />
+      <workItem from="1619493897132" duration="44000" />
+      <workItem from="1621512323370" duration="1465000" />
+      <workItem from="1621685929850" duration="3400000" />
+      <workItem from="1621751275369" duration="5569000" />
+      <workItem from="1621842472440" duration="2144000" />
+      <workItem from="1621854718530" duration="6250000" />
+      <workItem from="1621937926098" duration="302000" />
+      <workItem from="1625924706479" duration="151000" />
+      <workItem from="1626590125214" duration="9146000" />
+      <workItem from="1627657997114" duration="1597000" />
+      <workItem from="1627668753745" duration="6163000" />
+      <workItem from="1627715038105" duration="1666000" />
+      <workItem from="1630017515830" duration="87000" />
+      <workItem from="1630459423470" duration="13000" />
+      <workItem from="1631947152078" duration="4926000" />
+      <workItem from="1631954437356" duration="4921000" />
+      <workItem from="1632122627961" duration="163000" />
+      <workItem from="1632249723441" duration="1557000" />
+      <workItem from="1632277819032" duration="4278000" />
+      <workItem from="1632359302205" duration="63000" />
+      <workItem from="1632397200985" duration="5122000" />
+      <workItem from="1632465242674" duration="8523000" />
+      <workItem from="1632560420271" duration="595000" />
+      <workItem from="1632670477860" duration="2917000" />
+      <workItem from="1632748161041" duration="4982000" />
+      <workItem from="1632833221571" duration="1254000" />
+      <workItem from="1633868362904" duration="5232000" />
+      <workItem from="1633967948137" duration="637000" />
+      <workItem from="1634753407475" duration="1238000" />
+      <workItem from="1634802326993" duration="4004000" />
+      <workItem from="1634906866313" duration="6504000" />
+      <workItem from="1635176215661" duration="176000" />
+      <workItem from="1635417948093" duration="595000" />
+      <workItem from="1636205193129" duration="8463000" />
+      <workItem from="1636378518986" duration="4000" />
+      <workItem from="1637665124645" duration="40000" />
+      <workItem from="1637665343076" duration="79000" />
+      <workItem from="1637839608413" duration="18990000" />
+      <workItem from="1638444209110" duration="666000" />
+      <workItem from="1641981376072" duration="7610000" />
+      <workItem from="1642000419726" duration="781000" />
+      <workItem from="1642001232112" duration="200000" />
+      <workItem from="1642001447663" duration="4576000" />
+      <workItem from="1642160047649" duration="8497000" />
+      <workItem from="1642412496589" duration="2160000" />
+      <workItem from="1642509086554" duration="3256000" />
+      <workItem from="1643870073284" duration="2886000" />
+      <workItem from="1644672480600" duration="4448000" />
+      <workItem from="1644917750919" duration="1738000" />
+      <workItem from="1645456823935" duration="2409000" />
+      <workItem from="1646934197245" duration="309000" />
+      <workItem from="1646934517396" duration="66000" />
+      <workItem from="1646934803106" duration="81000" />
+      <workItem from="1646934891933" duration="69000" />
+      <workItem from="1647077284325" duration="2973000" />
+      <workItem from="1647336088171" duration="9000" />
+      <workItem from="1647337466532" duration="7000" />
+      <workItem from="1648355862943" duration="2497000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/start/Start.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/00.review/src/com/river/CloneExample.java</url>
+          <line>4</line>
+          <properties field="a" class="com.river.CloneExample" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
