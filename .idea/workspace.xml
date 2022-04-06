@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5dce73-5d1e-4609-a795-d1c71fa8c6c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/JavaSE-Learning.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7a5dce73-5d1e-4609-a795-d1c71fa8c6c8" name="Default Changelist" comment="import my JavaSE code for the first time.">
+      <change afterPath="$PROJECT_DIR$/12.JDBC/12.JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.JDBC/src/com/river/jdbc/TestDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.JDBC/src/com/river/jdbc/TestInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.JDBC/src/com/river/jdbc/TestSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.JDBC/src/com/river/jdbc/TestSelect2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.JDBC/src/com/river/jdbc/TestUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.JDBC/src/com/river/jdbc2/TestLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.JDBC/src/entity/Emp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,43 +48,48 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1qkbBd0WXtRmlaANSND8NmQVAFU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JavaSE-Learning" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/12.JDBC/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/12.JDBC/lib/mysql-connector-java-8.0.25.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/12.JDBC/lib" />
       <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\udp\ask3" />
       <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\udp\ask2" />
       <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\tcp\login4" />
       <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\tcp\login3" />
-      <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\tcp\login2" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.river.poly" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.river.jdbc" />
       <recent name="com.river" />
       <recent name="com.river.pool" />
       <recent name="com.river.sync4" />
       <recent name="com.river.control4" />
-      <recent name="com.river.create2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.askClient">
+  <component name="RunManager" selected="Application.TestSelect2">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -91,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.tcp.login4.LoginClient" />
-      <module name="10.socket" />
+    <configuration name="TestDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.jdbc.TestDelete" />
+      <module name="12.JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.tcp.login4.*" />
+          <option name="PATTERN" value="com.river.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="askClient (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.udp.ask3.askClient" />
-      <module name="10.socket" />
+    <configuration name="TestInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.jdbc.TestInsert" />
+      <module name="12.JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.udp.ask3.*" />
+          <option name="PATTERN" value="com.river.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="askClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.udp.ask.askClient" />
-      <module name="10.socket" />
+    <configuration name="TestSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.jdbc.TestSelect" />
+      <module name="12.JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.udp.ask.*" />
+          <option name="PATTERN" value="com.river.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="askServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.udp.ask3.askServer" />
-      <module name="10.socket" />
+    <configuration name="TestSelect2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.jdbc.TestSelect2" />
+      <module name="12.JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.udp.ask3.*" />
+          <option name="PATTERN" value="com.river.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="askServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.udp.ask.askServer" />
-      <module name="10.socket" />
+    <configuration name="TestUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.jdbc.TestUpdate" />
+      <module name="12.JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.udp.ask.*" />
+          <option name="PATTERN" value="com.river.jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.askServer" />
-        <item itemvalue="Application.askServer (1)" />
-        <item itemvalue="Application.askClient" />
-        <item itemvalue="Application.askClient (1)" />
-        <item itemvalue="Application.LoginClient" />
+        <item itemvalue="Application.TestSelect2" />
+        <item itemvalue="Application.TestSelect" />
+        <item itemvalue="Application.TestDelete" />
+        <item itemvalue="Application.TestUpdate" />
+        <item itemvalue="Application.TestInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -268,12 +278,37 @@
       <workItem from="1647077284325" duration="2973000" />
       <workItem from="1647336088171" duration="9000" />
       <workItem from="1647337466532" duration="7000" />
-      <workItem from="1648355862943" duration="2497000" />
+      <workItem from="1648355862943" duration="2901000" />
+      <workItem from="1648364355154" duration="56000" />
+      <workItem from="1648984928395" duration="613000" />
+      <workItem from="1648987018105" duration="458000" />
+      <workItem from="1648987485858" duration="1928000" />
+      <workItem from="1649154465679" duration="10088000" />
     </task>
+    <task id="LOCAL-00001" summary="import my JavaSE code for the first time.">
+      <created>1648361109179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648361109179</updated>
+    </task>
+    <task id="LOCAL-00002" summary="import my JavaSE code for the first time.">
+      <created>1648361274112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648361274112</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="import my JavaSE code for the first time." />
+    <option name="LAST_COMMIT_MESSAGE" value="import my JavaSE code for the first time." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
