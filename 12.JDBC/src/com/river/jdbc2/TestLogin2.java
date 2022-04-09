@@ -9,9 +9,10 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- *  模拟登陆    -- 存在sql注入风险
+ *  模拟登陆    -- public interface PreparedStatement extends Statement
+ *  防止sql注入风险，非字符串拼接，能减少出错，同时速度快
  */
-public class TestLogin {
+public class TestLogin2 {
     /**
      *  登陆前台
      * @param args
@@ -32,7 +33,7 @@ public class TestLogin {
             System.out.println("登陆失败");
         } else {
             System.out.println("登陆成功!\n真实姓名：" + user.getRealName() + "\n账户余额："
-                                + user.getMoney());
+                    + user.getMoney());
         }
         // 即使密码错误，也能登陆成功
     }
@@ -40,7 +41,8 @@ public class TestLogin {
     // 后台
     public static User login(String userId, String pwd) {
         Connection conn = null;
-        Statement stmt = null;
+        // Statement stmt = null;
+        PreparedStatement pstmt = null;
         ResultSet rs = null;
         User user2 = null;
 
@@ -58,14 +60,17 @@ public class TestLogin {
             // 2.和数据库建立连接
             conn = DriverManager.getConnection(url, user, password);
 
-            // 3.创建一个sql命令发送器
-            stmt = conn.createStatement();
+            // 3.准备一个sql命令，并使用sql命令发送器发送出去，并返回结果
+            String sql = "select * from t_user where userid = ? and password = ?"; // ? 占位
 
-            // 4.准备一个sql命令，并使用sql命令发送器发送出去，并返回结果
-            String sql = "select * from t_user where userid = '" + userId + "' and password = '"
-                            + pwd + "'";
+            // 4.创建一个sql命令发送器
+            //stmt = conn.createStatement();
+            pstmt = conn.prepareStatement(sql);
 
-            rs = stmt.executeQuery(sql);
+            //rs = stmt.executeQuery(sql);
+            pstmt.setString(1, userId);
+            pstmt.setString(2, pwd);
+            rs = pstmt.executeQuery();
 
             // 5.处理结果(将ResultSet的结果数据封装到Ｌist之中)
             if (rs.next()) {
@@ -89,8 +94,8 @@ public class TestLogin {
             }
 
             try {
-                if (stmt != null) {
-                    stmt.close();
+                if (pstmt != null) {
+                    pstmt.close();
                 }
             } catch (SQLException e) {
                 e.printStackTrace();
