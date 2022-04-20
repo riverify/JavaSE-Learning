@@ -5,10 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5dce73-5d1e-4609-a795-d1c71fa8c6c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12.JDBC/src/com/river/jdbc2/TestLogin2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12.JDBC/src/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12.JDBC/src/com/river/jdbc2/TestTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/13.empmgr.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/dao/impl/EmployeeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/dao/impl/EmployeeDaoImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/dao/impl/EmployeeDaoImpl3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/util/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/util/DBUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/util/DBUtil3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/util/TestProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr/src/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/13.empmgr2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/dao/EmployeeDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/dao/impl/EmployeeDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/dao/impl/EmployeeDaoImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/dao/impl/EmployeeDaoImpl3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/test/SsqGame2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/util/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/util/DBUtil2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/util/DBUtil3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/util/TestProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13.empmgr2/src/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12.JDBC/src/com/river/jdbc2/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/12.JDBC/src/com/river/jdbc2/TestLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +73,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="1qkbBd0WXtRmlaANSND8NmQVAFU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,37 +91,37 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/12.JDBC/src" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/12.JDBC/lib/mysql-connector-java-8.0.25.jar" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/13.empmgr/src/com/river/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/13.empmgr/lib/mysql-connector-java-8.0.11.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/13.empmgr/lib" />
       <recent name="$PROJECT_DIR$/12.JDBC/lib" />
       <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\udp\ask3" />
       <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\udp\ask2" />
       <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\tcp\login4" />
-      <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\tcp\login3" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.river.poly" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.river.util" />
+      <recent name="com.river.dao.impl" />
+      <recent name="com.river.test" />
       <recent name="com.river.jdbc" />
       <recent name="com.river" />
-      <recent name="com.river.pool" />
-      <recent name="com.river.sync4" />
-      <recent name="com.river.control4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestLogin2">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -98,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.jdbc.TestDelete" />
-      <module name="12.JDBC" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.test.Test" />
+      <module name="13.empmgr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.jdbc.*" />
+          <option name="PATTERN" value="com.river.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.jdbc2.TestLogin" />
-      <module name="12.JDBC" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.test.Test" />
+      <module name="13.empmgr2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.jdbc2.*" />
+          <option name="PATTERN" value="com.river.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +172,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSelect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.jdbc.TestSelect" />
-      <module name="12.JDBC" />
+    <configuration name="TestProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.util.TestProperties" />
+      <module name="13.empmgr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.jdbc.*" />
+          <option name="PATTERN" value="com.river.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +185,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSelect2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.jdbc.TestSelect2" />
+    <configuration name="TestTransaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.jdbc2.TestTransaction" />
       <module name="12.JDBC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.jdbc.*" />
+          <option name="PATTERN" value="com.river.jdbc2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.TestProperties" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestTransaction" />
         <item itemvalue="Application.TestLogin2" />
-        <item itemvalue="Application.TestLogin" />
-        <item itemvalue="Application.TestSelect2" />
-        <item itemvalue="Application.TestSelect" />
-        <item itemvalue="Application.TestDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -282,6 +317,10 @@
       <workItem from="1648987485858" duration="1928000" />
       <workItem from="1649154465679" duration="10339000" />
       <workItem from="1649276959997" duration="3716000" />
+      <workItem from="1649475303972" duration="26357000" />
+      <workItem from="1650457836823" duration="838000" />
+      <workItem from="1650458723153" duration="1496000" />
+      <workItem from="1650460640455" duration="421000" />
     </task>
     <task id="LOCAL-00001" summary="import my JavaSE code for the first time.">
       <created>1648361109179</created>
@@ -304,7 +343,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649215393712</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jdbc commit">
+      <created>1649475342107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649475342107</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
