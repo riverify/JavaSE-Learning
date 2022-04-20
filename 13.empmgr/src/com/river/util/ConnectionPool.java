@@ -61,7 +61,7 @@ public class ConnectionPool {
     /**
      * 从连接池中获取连接
      */
-    public Connection getConnection() {
+    public static Connection getConnection() {
         if (list.size() > 0) {
             return list.removeFirst();
         } else {
@@ -72,9 +72,23 @@ public class ConnectionPool {
     /**
      * 数据库连接完毕,放回连接
      */
-    public void returnConnection(Connection conn) {
+    public static void returnConnection(Connection conn) {
         if (list.size() < 10) {
             list.addLast(conn);
+        } else {
+            try {
+                conn.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(getConnection());
+        System.out.println(getConnection());
+        System.out.println(getConnection());
+        System.out.println(getConnection());
+
     }
 }
