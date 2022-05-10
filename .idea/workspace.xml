@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5dce73-5d1e-4609-a795-d1c71fa8c6c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14.reflection/14.reflection.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14.reflection/src/com/river/why/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14.reflection/src/com/river/why/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/14.reflection/src/com/river/why/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.reflection/src/com/river/clazz/TestClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.reflection/src/com/river/clazz/TestClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.reflection/src/com/river/constructor/TestConstructor1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.reflection/src/com/river/constructor/TestConstructor2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,14 +74,14 @@
       <recent name="com.river.poly" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.river.clazz" />
       <recent name="com.river.util" />
       <recent name="com.river.dao.impl" />
       <recent name="com.river.test" />
       <recent name="com.river.jdbc" />
-      <recent name="com.river" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestReflection">
+  <component name="RunManager" selected="Application.TestConstructor1">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -120,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.test.Test" />
-      <module name="13.empmgr2" />
+    <configuration name="TestClass1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.clazz.TestClass1" />
+      <module name="14.reflection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.test.*" />
+          <option name="PATTERN" value="com.river.clazz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.util.TestProperties" />
-      <module name="13.empmgr" />
+    <configuration name="TestConstructor1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.constructor.TestConstructor1" />
+      <module name="14.reflection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.util.*" />
+          <option name="PATTERN" value="com.river.constructor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestConstructor1" />
+        <item itemvalue="Application.TestClass1" />
         <item itemvalue="Application.TestReflection" />
         <item itemvalue="Application.ConnectionPool" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.TestProperties" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -285,6 +284,7 @@
       <workItem from="1650936846482" duration="37000" />
       <workItem from="1650942400399" duration="35000" />
       <workItem from="1652104597455" duration="978000" />
+      <workItem from="1652176921244" duration="5095000" />
     </task>
     <task id="LOCAL-00001" summary="import my JavaSE code for the first time.">
       <created>1648361109179</created>
@@ -328,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650462020215</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="reflect commit">
+      <created>1652177233876</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652177233876</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +345,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="import my JavaSE code for the first time." />
     <MESSAGE value="jdbc commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc commit" />
+    <MESSAGE value="reflect commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="reflect commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
