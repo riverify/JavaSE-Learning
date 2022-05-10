@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5dce73-5d1e-4609-a795-d1c71fa8c6c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/14.reflection/14.reflection.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.reflection/src/com/river/why/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.reflection/src/com/river/why/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/14.reflection/src/com/river/why/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13.empmgr/src/com/river/util/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/util/ConnectionPool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,31 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/13.empmgr/src/com/river/dao" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/13.empmgr/lib/mysql-connector-java-8.0.11.jar" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/river/Code/Java/IDEAProjects/JavaSE&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/14.reflection/src/com/river/why" />
       <recent name="$PROJECT_DIR$/13.empmgr/lib" />
       <recent name="$PROJECT_DIR$/12.JDBC/lib" />
       <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\udp\ask3" />
       <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\udp\ask2" />
-      <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\tcp\login4" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.river.poly" />
@@ -87,7 +82,7 @@
       <recent name="com.river" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConnectionPool">
+  <component name="RunManager" selected="Application.TestReflection">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -151,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTransaction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.river.jdbc2.TestTransaction" />
-      <module name="12.JDBC" />
+    <configuration name="TestReflection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.river.why.TestReflection" />
+      <module name="14.reflection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.river.jdbc2.*" />
+          <option name="PATTERN" value="com.river.why.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestReflection" />
         <item itemvalue="Application.ConnectionPool" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.TestProperties" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestTransaction" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +281,10 @@
       <workItem from="1649475303972" duration="26357000" />
       <workItem from="1650457836823" duration="838000" />
       <workItem from="1650458723153" duration="1496000" />
-      <workItem from="1650460640455" duration="1310000" />
+      <workItem from="1650460640455" duration="3402000" />
+      <workItem from="1650936846482" duration="37000" />
+      <workItem from="1650942400399" duration="35000" />
+      <workItem from="1652104597455" duration="978000" />
     </task>
     <task id="LOCAL-00001" summary="import my JavaSE code for the first time.">
       <created>1648361109179</created>
@@ -323,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650461173358</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="jdbc commit">
+      <created>1650462020215</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650462020215</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
