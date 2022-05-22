@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationTargetException;
 
 public class TestConstructor1 {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
-        // 1.获取类的完整路径字符 串
+        // 1.获取类的完整路径字符串
         String className = "com.river.why.Dog";
         // 2.根据完整路径字符串获取类对象
         Class clazz = Class.forName(className);

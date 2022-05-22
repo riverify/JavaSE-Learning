@@ -6,56 +6,41 @@ import com.river.entity.Employee;
 import com.river.util.DBUtil;
 
 import java.sql.*;
-
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeDaoImpl implements EmployeeDao {
+public class EmployeeDaoImpl4 implements EmployeeDao {
 
     @Override
     public List<Employee> findAll() {
         Connection conn = null;
-        PreparedStatement pstmt = null;
+        Statement stmt = null;
         ResultSet rs = null;
         List<Employee> list = new ArrayList<>();
+
 
         // 加载驱动
         try {
             conn = DBUtil.getConnection();
             // 创建sql命令发射器
-            String sql = "select * from EMP";
-            pstmt = conn.prepareStatement(sql);
+            stmt = conn.createStatement();
 
             // 准备好sql语句，通过sql命令发射器发送给数据库，并得到结果
-            rs = pstmt.executeQuery();
+            String sql = "select * from EMP";
+            rs = stmt.executeQuery(sql);
 
             // 处理结果
             while (rs.next()) {
-                Employee emp = new Employee();
-
                 int empno = rs.getInt("empno");
-                emp.setEmpno(empno);
-
                 String ename = rs.getString("ename");
-                emp.setEname(ename);
-
                 String job = rs.getString("job");
-                emp.setJob(job);
-
                 int mgr = rs.getInt("mgr");
-                emp.setMgr(mgr);
-
                 Date hireDate = rs.getDate("hiredate");
-                emp.setHireDate(hireDate);
-
                 double sal = rs.getDouble("sal");
-                emp.setSal(sal);
-
                 double comm = rs.getDouble("comm");
-                emp.setComm(comm);
-
                 int depton = rs.getInt("deptno");
-                emp.setDeptno(depton);
+
+                Employee emp = new Employee(empno, ename, job, mgr, hireDate, sal, comm, depton);
 
                 list.add(emp);
             }
@@ -63,7 +48,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
             e.printStackTrace();
         } finally {
             // 关闭资源
-            DBUtil.closeAll(rs, pstmt, conn);
+            DBUtil.closeAll(rs, stmt, conn);
         }
 
 
@@ -71,61 +56,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
     }
 
     @Override
-    public Employee findById(int empno2) {
-        Connection conn = null;
-        PreparedStatement pstmt = null;
-        ResultSet rs = null;
-        List<Employee> list = new ArrayList<>();
-
-        // 加载驱动
-        try {
-            conn = DBUtil.getConnection();
-            // 创建sql命令发射器
-            String sql = "select * from EMP where empno = ?";
-            pstmt = conn.prepareStatement(sql);
-            pstmt.setInt(1, empno2);
-            // 准备好sql语句，通过sql命令发射器发送给数据库，并得到结果
-            rs = pstmt.executeQuery();
-
-            // 处理结果
-            while (rs.next()) {
-                Employee emp = new Employee();
-
-                int empno = rs.getInt("empno");
-                emp.setEmpno(empno);
-
-                String ename = rs.getString("ename");
-                emp.setEname(ename);
-
-                String job = rs.getString("job");
-                emp.setJob(job);
-
-                int mgr = rs.getInt("mgr");
-                emp.setMgr(mgr);
-
-                Date hireDate = rs.getDate("hiredate");
-                emp.setHireDate(hireDate);
-
-                double sal = rs.getDouble("sal");
-                emp.setSal(sal);
-
-                double comm = rs.getDouble("comm");
-                emp.setComm(comm);
-
-                int depton = rs.getInt("deptno");
-                emp.setDeptno(depton);
-
-                list.add(emp);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } finally {
-            // 关闭资源
-            DBUtil.closeAll(rs, pstmt, conn);
-        }
-
-
-
+    public Employee findById(int empno) {
 
         Connection conn = null;
         Statement stmt = null;
@@ -166,7 +97,7 @@ public class EmployeeDaoImpl implements EmployeeDao {
     public int save(Employee emp) {
 
         String sql = "insert into EMP values(null, ?, ?, ?, ?, ?, ?, ?)";
-        Object[] params = {emp.getEname(), emp.getJob(), emp.getMgr(), new java.sql.Date(emp.getHireDate().getTime()),
+        Object[] params = {emp.getEname(), emp.getJob(), emp.getMgr(), new Date(emp.getHireDate().getTime()),
                 emp.getSal(), emp.getComm(), emp.getDeptno()};
         return DBUtil.executeUpdate(sql, params);
     }

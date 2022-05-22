@@ -30,4 +30,13 @@ public final class Dog extends Animal implements Serializable,Cloneable {
     private void guard(){
 
     }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "type='" + type + '\'' +
+                ", nickName='" + nickName + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
