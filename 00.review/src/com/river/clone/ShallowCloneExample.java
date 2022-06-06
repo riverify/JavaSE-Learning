@@ -2,7 +2,7 @@ package com.river.clone;
 
 public class ShallowCloneExample implements Cloneable {
 
-    private int[] arr;
+    private final int[] arr;
 
     public ShallowCloneExample() {
         arr = new int[10];

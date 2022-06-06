@@ -4,7 +4,7 @@ package com.river.sync0;
  * 取款的线程
  */
 public class AccountRunnable implements Runnable {
-    private Account account = new Account();
+    private final Account account = new Account();
     @Override
     public void run() {
         if (account.getBalance() >= 400) {

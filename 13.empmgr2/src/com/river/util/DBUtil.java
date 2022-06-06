@@ -13,7 +13,7 @@ import java.util.Properties;
  */
 public abstract class DBUtil {
     //定义一个日志记录器
-    private static Logger logger = Logger.getLogger(DBUtil.class.getName());
+    private static final Logger logger = Logger.getLogger(DBUtil.class.getName());
 
     //在合适的位置使用日志记录器来记录日志
 
@@ -36,7 +36,7 @@ public abstract class DBUtil {
             logger.info("正确的读取了jdbc.properties:" + prop);
         } catch (IOException e) {
             e.printStackTrace();
-            logger.error("读取jdbc.properties文件出错：" + e.toString());
+            logger.error("读取jdbc.properties文件出错：" + e);
         }
         //根据key获取values
         driver = prop.getProperty("driver");
@@ -62,7 +62,7 @@ public abstract class DBUtil {
             e.printStackTrace();
         } catch (SQLException e) {
             e.printStackTrace();
-            logger.error("建立数据库连接失败：" + e.toString());
+            logger.error("建立数据库连接失败：" + e);
         }
         return conn;
 

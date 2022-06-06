@@ -26,7 +26,7 @@ public class TestSet {
         set.add("Java");
         //遍历输出
         System.out.println(set.size());
-        System.out.println(set.toString());
+        System.out.println(set);
         //遍历1 for-each
 //        for (int i = 0; i < set.size(); i++) {
 //            set.get(i); //由于无序，故无与索引有关的方法

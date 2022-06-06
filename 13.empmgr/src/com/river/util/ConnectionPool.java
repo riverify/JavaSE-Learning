@@ -12,7 +12,7 @@ public class ConnectionPool {
     /**
      * 存放多个数据库连接
      */
-    private static LinkedList<Connection> list = new LinkedList<Connection>();
+    private static final LinkedList<Connection> list = new LinkedList<Connection>();
 
     /**
      * 第一次加载２类的时候

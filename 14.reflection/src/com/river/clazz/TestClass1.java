@@ -33,7 +33,7 @@ public class TestClass1 {
         for (Method m :
                 methods) {
             System.out.println(m.getName() + " " + m.getModifiers() + " " + m.getReturnType() + " "
-            + Arrays.toString(m.getParameterAnnotations()));
+                    + Arrays.toString(m.getParameterAnnotations()));
         }
 
         System.out.println("=========");

@@ -4,7 +4,7 @@ package com.river.sync2;
  * 同步方法 效率低于 同步代码块
  */
 public class AccountRunnable implements Runnable {
-    private Account account = new Account();
+    private final Account account = new Account();
     @Override
     public void run() {
 

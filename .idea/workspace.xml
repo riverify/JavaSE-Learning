@@ -5,8 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5dce73-5d1e-4609-a795-d1c71fa8c6c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/dao/impl/找钱问题.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00.review/src/com/river/EqualExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/00.review/src/com/river/EqualExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00.review/src/com/river/ToStringExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/00.review/src/com/river/ToStringExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00.review/src/com/river/clone/CloneConstructorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/00.review/src/com/river/clone/CloneConstructorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00.review/src/com/river/clone/ShallowCloneExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/00.review/src/com/river/clone/ShallowCloneExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00.review/src/com/river/interfaceDemo/InterfaceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/00.review/src/com/river/interfaceDemo/InterfaceExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00.review/src/com/river/superDemo/SuperExtendExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/00.review/src/com/river/superDemo/SuperExtendExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.start/src/com/river/poly/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/01.start/src/com/river/poly/Programmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.start/src/com/river/test/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/01.start/src/com/river/test/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.start/src/com/river/test/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/01.start/src/com/river/test/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.container2/src/com/river/set/TestSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/05.container2/src/com/river/set/TestSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.container3/src/com/river/geniric/Comparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/06.container3/src/com/river/geniric/Comparable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06.container3/src/com/river/geniric/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/06.container3/src/com/river/geniric/List.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08.thread1/src/com/river/sync0/AccountRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/08.thread1/src/com/river/sync0/AccountRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08.thread1/src/com/river/sync2/AccountRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/08.thread1/src/com/river/sync2/AccountRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08.thread1/src/com/river/sync3/AccountRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/08.thread1/src/com/river/sync3/AccountRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09.thread2/src/com/river/commu5/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/09.thread2/src/com/river/commu5/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.empmgr/src/com/river/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.empmgr/src/com/river/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.empmgr/src/com/river/util/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/util/ConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.empmgr/src/com/river/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/util/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.empmgr/src/com/river/util/DBUtil4.java" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr/src/com/river/util/DBUtil4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.empmgr2/src/com/river/dao/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/dao/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.empmgr2/src/com/river/test/SsqGame2.java" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/test/SsqGame2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.empmgr2/src/com/river/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.empmgr2/src/com/river/util/ConnectionPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/util/ConnectionPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.empmgr2/src/com/river/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr2/src/com/river/util/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14.reflection/src/com/river/clazz/TestClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/14.reflection/src/com/river/clazz/TestClass1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,15 +76,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/river/Code/Java/IDEAProjects/JavaSE",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/river/Code/Java/IDEAProjects/JavaSE&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="entity" />
@@ -81,7 +111,7 @@
       <recent name="com.river.jdbc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.找钱问题">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -160,9 +190,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.找钱问题" />
         <item itemvalue="Application.good" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestResultSetMetaData" />
         <item itemvalue="Application.TestField" />
       </list>
@@ -290,7 +320,13 @@
       <workItem from="1653224180714" duration="5473000" />
       <workItem from="1653308798967" duration="10205000" />
       <workItem from="1653653539868" duration="12929000" />
-      <workItem from="1653809158652" duration="3512000" />
+      <workItem from="1653809158652" duration="5765000" />
+      <workItem from="1654045707379" duration="42000" />
+      <workItem from="1654197230568" duration="196000" />
+      <workItem from="1654249185957" duration="12000" />
+      <workItem from="1654254364075" duration="1414000" />
+      <workItem from="1654443348744" duration="610000" />
+      <workItem from="1654483743650" duration="545000" />
     </task>
     <task id="LOCAL-00001" summary="import my JavaSE code for the first time.">
       <created>1648361109179</created>
@@ -362,11 +398,29 @@
       <option name="project" value="LOCAL" />
       <updated>1653381764633</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new commit">
+      <created>1653824067759</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653824067759</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -388,6 +442,11 @@
           <url>file://$PROJECT_DIR$/13.empmgr/src/com/river/dao/impl/找钱问题.java</url>
           <line>26</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/13.empmgr/src/com/river/util/DBUtil.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/00.review/src/com/river/CloneExample.java</url>

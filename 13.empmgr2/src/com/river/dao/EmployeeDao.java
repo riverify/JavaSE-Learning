@@ -9,34 +9,34 @@ public interface EmployeeDao {
      * 查询所有员工
      * @return
      */
-    public List<Employee> findAll();
+    List<Employee> findAll();
 
     /**
      * 查询指定编号的员工
      * @param empno
      * @return
      */
-    public Employee findById(int empno);
+    Employee findById(int empno);
 
     /**
      * 添加员工
      * @param emp
      * @return
      */
-    public int save(Employee emp);
+    int save(Employee emp);
 
     /**
      * 修改员工信息
      * @param emp
      * @return
      */
-    public int update(Employee emp);
+    int update(Employee emp);
 
     /**
      *  删除指定编号的员工
      * @param empno
      * @return
      */
-    public int  delete(int empno);
+    int  delete(int empno);
 
 }

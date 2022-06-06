@@ -18,7 +18,7 @@ public class Test {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         do{
-            System.out.println("");
+            System.out.println();
             System.out.println("*****欢迎进入员工管理系统*****");
             System.out.println("\t1.查询所有员工信息");
             System.out.println("\t2.查询指定编号员工");

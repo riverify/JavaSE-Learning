@@ -2,7 +2,7 @@ package com.river.superDemo;
 
 public class SuperExtendExample extends SuperExample {
 
-    private int z;
+    private final int z;
 
     public SuperExtendExample(int x, int y, int z) {
         super(x, y);

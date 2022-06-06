@@ -18,7 +18,7 @@ import java.util.Properties;
  */
 public abstract class DBUtil {
     // 定义一个日志记录器
-    private static Logger logger = Logger.getLogger(DBUtil.class.getName());
+    private static final Logger logger = Logger.getLogger(DBUtil.class.getName());
 
     // 在合适的位置使用日志
 
@@ -43,7 +43,7 @@ public abstract class DBUtil {
             logger.info("正确的读取了jdbc.properties" + prop);
         } catch (IOException e) {
             e.printStackTrace();
-            logger.error("读取jdbc.properties出错" + e.toString());
+            logger.error("读取jdbc.properties出错" + e);
         }
 
         // 通过key获取values;
@@ -170,8 +170,8 @@ public abstract class DBUtil {
                     Class parameterTypes = Class.forName(rsmd.getColumnClassName(i + 1));
                     Method method  = clazz.getMethod(methodName, parameterTypes);
                     method.invoke(entity, value);
-                    list.add(entity);
                 }
+                list.add(entity);
             }
         } catch (SQLException e) {
             e.printStackTrace();

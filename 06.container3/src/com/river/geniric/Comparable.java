@@ -2,5 +2,5 @@ package com.river.geniric;
 
 public interface Comparable<T> {
 
-    public int compareTo(T obj);
+    int compareTo(T obj);
 }

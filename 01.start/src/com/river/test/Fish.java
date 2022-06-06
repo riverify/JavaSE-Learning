@@ -39,9 +39,7 @@ public class Fish extends Animal {
         if (flag){
             //将obj对象强制转化为Fish类，才能进行下面判断
             Fish other = (Fish)obj;
-            if (this.weight == other.weight){
-                return true;
-            }else return false;
+            return this.weight == other.weight;
         }else return false;
     }
 

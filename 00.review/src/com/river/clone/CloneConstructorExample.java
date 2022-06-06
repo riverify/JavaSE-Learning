@@ -2,7 +2,7 @@ package com.river.clone;
 
 public class CloneConstructorExample {
 
-    private int[] arr;
+    private final int[] arr;
 
     public CloneConstructorExample() {
         arr = new int[10];

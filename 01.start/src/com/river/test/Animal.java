@@ -47,8 +47,6 @@ public class Animal extends Object {
         }
         //判断成员变量的内容是否完全相同
         Animal other=(Animal) obj;//向下转型
-        if (this.age==other.age){
-            return true;
-        }else return false;
+        return this.age == other.age;
     }
 }

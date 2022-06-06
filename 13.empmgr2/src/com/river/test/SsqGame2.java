@@ -11,7 +11,7 @@ public class SsqGame2 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		do{
-			System.out.println("");
+			System.out.println();
 			System.out.println("*****欢迎进入双色球彩票系统*****");
 			System.out.println("\t1.购买彩票");
 			System.out.println("\t2.查看开奖");

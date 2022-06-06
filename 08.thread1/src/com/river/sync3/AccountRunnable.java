@@ -7,10 +7,10 @@ import java.util.concurrent.locks.ReentrantLock;
  * Lock锁 -- re-entrant-lock 可重 入 锁
  */
 public class AccountRunnable implements Runnable {
-    private Account account = new Account();
+    private final Account account = new Account();
 
     // 得到锁
-    private Lock lock = new ReentrantLock();
+    private final Lock lock = new ReentrantLock();
 
     @Override
     public void run() {

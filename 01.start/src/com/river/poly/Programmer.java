@@ -1,7 +1,7 @@
 package com.river.poly;
 
 public class Programmer {
-    private String name = "proName";
+    private final String name = "proName";
 
     //子类继承的方法
     public void writeCode(){

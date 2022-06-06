@@ -15,7 +15,7 @@ public class ConnectionPool {
      * 关闭连接：入队  添加  添加到末尾
      * 建议使用LinkedList
      */
-    private static LinkedList<Connection> list = new LinkedList<Connection>();
+    private static final LinkedList<Connection> list = new LinkedList<Connection>();
 
     /**
      * 第一次加载类的实现执行一次，就执行这一次:建立多个数据库连接放入到LinkedList中

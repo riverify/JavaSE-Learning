@@ -10,9 +10,9 @@ public class Product {
     private String productColor;
     boolean flag = false;
 
-    private Lock lock = new ReentrantLock();
-    private Condition produceCondition = lock.newCondition();
-    private Condition consumeCondition = lock.newCondition();
+    private final Lock lock = new ReentrantLock();
+    private final Condition produceCondition = lock.newCondition();
+    private final Condition consumeCondition = lock.newCondition();
 
     public Product() {
     }
