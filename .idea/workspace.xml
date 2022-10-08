@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5dce73-5d1e-4609-a795-d1c71fa8c6c8" name="Default Changelist" comment="DoubleBall added">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/log4j_1_2_8__2_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/00.review/src/com/river/pilot/TestA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReviewAll/GitHub 上标星 115k+ 的 Java 教程.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubleBalls/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubleBalls/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubleBalls/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubleBalls/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubleBalls/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubleBalls/doubleBallsSoSick.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DoubleBall/DoubleBall.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubleBalls/src/lotteryDemo1/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/DoubleBall/src/lotteryDemo1/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubleBalls/src/lotteryDemo1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/DoubleBall/src/lotteryDemo1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubleBalls/src/lotteryDemo1/arrayUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/DoubleBall/src/lotteryDemo1/arrayUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doubleBalls/src/lotteryDemo1/lotteryUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/DoubleBall/src/lotteryDemo1/lotteryUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02.utils/src/com/river/test_utils/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/02.utils/src/com/river/test_utils/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/11.container4/src/com/river/TestArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/11.container4/src/com/river/TestArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12.JDBC/12.JDBC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/12.JDBC/12.JDBC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13.empmgr2/13.empmgr2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/13.empmgr2/13.empmgr2.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +64,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/home/river/Code/Java/IDEAProjects/JavaSE",
+    "last_opened_file_path": "/home/river/Code/Java/IDEAProjects/JavaSE/ReviewAll",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,11 +81,11 @@
       <recent name="entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ReviewAll" />
       <recent name="$PROJECT_DIR$/14.reflection/src/com/river/why" />
       <recent name="$PROJECT_DIR$/13.empmgr/lib" />
       <recent name="$PROJECT_DIR$/12.JDBC/lib" />
       <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\udp\ask3" />
-      <recent name="D:\code\IDEAProjects\JavaSE\10.socket\src\com\river\udp\ask2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\River\IdeaProjects\JavaSE-Learning\DoubleBall\src" />
@@ -323,6 +319,10 @@
       <workItem from="1654483743650" duration="545000" />
       <workItem from="1663003388741" duration="58000" />
       <workItem from="1663003456410" duration="435000" />
+      <workItem from="1663061285055" duration="106000" />
+      <workItem from="1663730359168" duration="329000" />
+      <workItem from="1664444571949" duration="82000" />
+      <workItem from="1665216434124" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="import my JavaSE code for the first time.">
       <created>1648361109179</created>
